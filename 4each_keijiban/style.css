@@ -1,0 +1,128 @@
+/* コンテンツの幅 */
+.maincontents{
+    width: 100%;
+}
+
+.left{
+    float: left;
+    width: 65%;
+}
+
+
+
+
+.logo img {
+    width: 400px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+header ul {
+    list-style-type: none;
+    line-height: 60px;
+}
+
+header ul li {
+    float: left;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
+}
+
+main{
+    clear: both;
+}
+
+
+/* プログラミングに役立つ掲示板 */
+h1{
+    margin-top: 15px;
+    border-left: 3px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+
+/* 入力フォーム　の文字 */
+form h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-left: 4px red solid;
+    background-color: #f1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    width: 500px;
+    font-size: 20px;
+}
+
+/* フォームの枠 */
+form{
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 900px;
+    margin-bottom: 10px;
+}
+
+/* ハンドルネームとタイトルなどの行間 */
+.text{
+    margin-bottom: 20px;
+}
+
+
+
+/* 投稿するボタン */
+.submit{
+    margin: 20px;
+}
+
+/* フォームの下のタイトル・・ */
+.title_box1{
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 900px;
+    margin-bottom: 10px;    
+}
+
+.title_box1 h3{
+    border-bottom: 1px dotted black;
+}
+
+
+
+
+/* 右側の人気の記事 */
+.right{
+    float: right;
+     width: 30%;
+     margin-top: 30px;
+ 
+     
+     
+ }
+ 
+ .right ul {
+     list-style-type: none;
+    
+ }
+ 
+ .right h3{
+     border-bottom: 1px dotted black;
+ }
+ 
+ footer{
+     clear: both;
+     width: 100%;
+     height: 60px;
+     background-color: black;
+     color: white;
+     text-align: center;
+     line-height: 60px;
+ 
+ }
